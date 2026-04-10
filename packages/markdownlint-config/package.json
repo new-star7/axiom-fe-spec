@@ -20,5 +20,9 @@
   },
   "peerDependencies": {
     "markdownlint": "^0.28.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
