@@ -1,6 +1,6 @@
 {
   "name": "@new-star7/commitlint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "axiom前端编码规范 - Git规范",
   "main": "index.js",
   "scripts": {

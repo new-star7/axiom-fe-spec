@@ -1,6 +1,6 @@
 {
   "name": "@new-star7/markdownlint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.json",
   "description": "axiom前端编码规范 文档规范",
   "keywords": [
