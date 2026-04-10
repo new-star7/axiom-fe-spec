@@ -1,0 +1,28 @@
+{
+  "name": "@new-star7/commitlint-config",
+  "version": "1.0.0",
+  "description": "axiom前端编码规范 - Git规范",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "commitlint",
+    "commit",
+    "lint"
+  ],
+  "author": "new-star7",
+  "homepage": "https://github.com/new-star7/axiom-fe-spec#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/new-star7/axiom-fe-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/new-star7/axiom-fe-spec/issues"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
+  },
+  "packageManager": "pnpm@10.32.1"
+}

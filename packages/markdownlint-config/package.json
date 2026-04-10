@@ -1,0 +1,24 @@
+{
+  "name": "@new-star7/markdownlint-config",
+  "version": "1.0.0",
+  "main": "index.json",
+  "description": "axiom前端编码规范 文档规范",
+  "keywords": [
+    "axiom",
+    "markdown",
+    "lint"
+  ],
+  "author": "new-star7",
+  "homepage": "https://github.com/new-star7/axiom-fe-spec#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/new-star7/axiom-fe-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/new-star7/axiom-fe-spec/issues"
+  },
+  "peerDependencies": {
+    "markdownlint": "^0.28.1"
+  }
+}
