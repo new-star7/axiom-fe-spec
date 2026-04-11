@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: encode-fe-stylelint-config
 categories:
   - 工程规范
@@ -8,6 +8,12 @@ author:
   name: new-star7
   link: https://github.com/new-star7/axiom-fe-spec
 ---
+
+# ESLint 规范
+
+🚧 **基础设施正在建设中 (Work In Progress)...**
+
+敬请期待后续更新！
 
 # encode-fe-stylelint-config
 
@@ -33,4 +39,4 @@ npm install encode-fe-stylelint-config stylelint stylelint-scss --save-dev
 {
   "extends": "encode-fe-stylelint-config"
 }
-``` -->
+```

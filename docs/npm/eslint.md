@@ -9,6 +9,12 @@ author:
   link: https://github.com/new-star7/axiom-fe-spec
 ---
 
+# ESLint 规范
+
+🚧 **基础设施正在建设中 (Work In Progress)...**
+
+敬请期待后续更新！
+
 # encode-fe-eslint-config
 
 :::tip

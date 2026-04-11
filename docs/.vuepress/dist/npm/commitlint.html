@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>encode-fe-commitlint-config | Axiom 前端规范</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    <link rel="icon" href="/axiom-fe-spec/img/logo.png">
+    <meta name="description" content="Axiom前端编码规范工程化">
+    <meta name="keywords" content="Axiom前端编码规范工程化">
+    
+    <link rel="preload" href="/axiom-fe-spec/assets/css/0.styles.93ca15f0.css" as="style"><link rel="preload" href="/axiom-fe-spec/assets/js/app.228e26ab.js" as="script"><link rel="preload" href="/axiom-fe-spec/assets/js/2.5de98bef.js" as="script"><link rel="preload" href="/axiom-fe-spec/assets/js/1.404baeb6.js" as="script"><link rel="preload" href="/axiom-fe-spec/assets/js/32.4b9dffaf.js" as="script"><link rel="prefetch" href="/axiom-fe-spec/assets/js/10.86dfd169.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/11.7e15e5e4.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/12.03f67e39.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/13.41963a27.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/14.b40becd7.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/15.bb0f2e23.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/16.6ec3de43.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/17.94af9fda.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/18.fb88c0fb.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/19.d8b873d9.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/20.2199f179.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/21.ae94de93.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/22.e39b4674.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/23.cd7b847a.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/24.f925b1d2.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/25.01393ad1.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/26.b0dffda8.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/27.a19f5d3a.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/28.cc4cf272.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/29.9ebf2047.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/3.9c46b540.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/30.b5314209.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/31.2eaa45b5.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/33.1de07648.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/34.96b0f7c3.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/35.b28c61b2.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/36.29b8ffb2.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/4.d0953acd.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/5.ed016f81.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/6.5836bb70.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/7.88097238.js"><link rel="prefetch" href="/axiom-fe-spec/assets/js/vendors~docsearch.663d6e13.js">
+    <link rel="stylesheet" href="/axiom-fe-spec/assets/css/0.styles.93ca15f0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/axiom-fe-spec/" class="home-link router-link-active"><img src="/axiom-fe-spec/img/logo.png" alt="Axiom 前端规范" class="logo"> <span class="site-name can-hide">Axiom 前端规范</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/axiom-fe-spec/index.html" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="编码规范" class="dropdown-title"><span class="title">编码规范</span> <span class="arrow down"></span></button> <button type="button" aria-label="编码规范" class="mobile-dropdown-title"><span class="title">编码规范</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/coding/html.html" class="nav-link">
+  HTML 编码规范
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/coding/css.html" class="nav-link">
+  CSS 编码规范
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/coding/javascript.html" class="nav-link">
+  JavaScript 编码规范
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/coding/typescript.html" class="nav-link">
+  Typescript 编码规范
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/coding/node.html" class="nav-link">
+  Node 编码规范
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工程规范" class="dropdown-title"><span class="title">工程规范</span> <span class="arrow down"></span></button> <button type="button" aria-label="工程规范" class="mobile-dropdown-title"><span class="title">工程规范</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/engineering/git.html" class="nav-link">
+  Git 规范
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/engineering/doc.html" class="nav-link">
+  文档规范
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/engineering/changelog.html" class="nav-link">
+  CHANGELOG 规范
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="NPM包" class="dropdown-title"><span class="title">NPM包</span> <span class="arrow down"></span></button> <button type="button" aria-label="NPM包" class="mobile-dropdown-title"><span class="title">NPM包</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/npm/eslint.html" class="nav-link">
+  axiom-fe-eslint-config
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/npm/stylelint.html" class="nav-link">
+  axiom-fe-stylelint-config
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/npm/commitlint.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  axiom-fe-commitlint-config
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/npm/markdownlint.html" class="nav-link">
+  axiom-fe-markdownlint-config
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/npm/eslint-plugin.html" class="nav-link">
+  axiom-fe-eslint-plugin
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="脚手架" class="dropdown-title"><span class="title">脚手架</span> <span class="arrow down"></span></button> <button type="button" aria-label="脚手架" class="mobile-dropdown-title"><span class="title">脚手架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/cli/axiom-fe-lint.html" class="nav-link">
+  axiom-fe-lint
+</a></li></ul></div></div> <a href="https://github.com/new-star7/axiom-fe-spec" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/axiom-fe-spec/index.html" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="编码规范" class="dropdown-title"><span class="title">编码规范</span> <span class="arrow down"></span></button> <button type="button" aria-label="编码规范" class="mobile-dropdown-title"><span class="title">编码规范</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/coding/html.html" class="nav-link">
+  HTML 编码规范
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/coding/css.html" class="nav-link">
+  CSS 编码规范
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/coding/javascript.html" class="nav-link">
+  JavaScript 编码规范
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/coding/typescript.html" class="nav-link">
+  Typescript 编码规范
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/coding/node.html" class="nav-link">
+  Node 编码规范
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工程规范" class="dropdown-title"><span class="title">工程规范</span> <span class="arrow down"></span></button> <button type="button" aria-label="工程规范" class="mobile-dropdown-title"><span class="title">工程规范</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/engineering/git.html" class="nav-link">
+  Git 规范
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/engineering/doc.html" class="nav-link">
+  文档规范
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/engineering/changelog.html" class="nav-link">
+  CHANGELOG 规范
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="NPM包" class="dropdown-title"><span class="title">NPM包</span> <span class="arrow down"></span></button> <button type="button" aria-label="NPM包" class="mobile-dropdown-title"><span class="title">NPM包</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/npm/eslint.html" class="nav-link">
+  axiom-fe-eslint-config
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/npm/stylelint.html" class="nav-link">
+  axiom-fe-stylelint-config
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/npm/commitlint.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  axiom-fe-commitlint-config
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/npm/markdownlint.html" class="nav-link">
+  axiom-fe-markdownlint-config
+</a></li><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/npm/eslint-plugin.html" class="nav-link">
+  axiom-fe-eslint-plugin
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="脚手架" class="dropdown-title"><span class="title">脚手架</span> <span class="arrow down"></span></button> <button type="button" aria-label="脚手架" class="mobile-dropdown-title"><span class="title">脚手架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/axiom-fe-spec/cli/axiom-fe-lint.html" class="nav-link">
+  axiom-fe-lint
+</a></li></ul></div></div> <a href="https://github.com/new-star7/axiom-fe-spec" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>编码规范</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>工程规范</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>NPM包</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/axiom-fe-spec/npm/eslint.html" class="sidebar-link">axiom-fe-eslint-config</a></li><li><a href="/axiom-fe-spec/npm/stylelint.html" class="sidebar-link">axiom-fe-stylelint-config</a></li><li><a href="/axiom-fe-spec/npm/commitlint.html" aria-current="page" class="active sidebar-link">axiom-fe-commitlint-config</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/axiom-fe-spec/npm/commitlint.html#安装" class="sidebar-link">安装</a></li><li class="sidebar-sub-header"><a href="/axiom-fe-spec/npm/commitlint.html#使用" class="sidebar-link">使用</a></li><li class="sidebar-sub-header"><a href="/axiom-fe-spec/npm/commitlint.html#设置-git-hook" class="sidebar-link">设置 git hook</a></li></ul></li><li><a href="/axiom-fe-spec/npm/markdownlint.html" class="sidebar-link">axiom-fe-markdownlint-config</a></li><li><a href="/axiom-fe-spec/npm/eslint-plugin.html" class="sidebar-link">axiom-fe-eslint-plugin</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>脚手架</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="axiom-fe-commitlint-config"><a href="#axiom-fe-commitlint-config" class="header-anchor">#</a> axiom-fe-commitlint-config</h1> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>Axiom 规范</p></div> <p>支持配套的 <a href="https://commitlint.js.org/#/concepts-shareable-config" target="_blank" rel="noopener noreferrer">commitlint 配置<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>，用于对 <code>git commit message</code> 进行校验。</p> <h2 id="安装"><a href="#安装" class="header-anchor">#</a> 安装</h2> <p>使用时，需要安装 <a href="https://www.npmjs.com/package/@commitlint/cli" target="_blank" rel="noopener noreferrer">@commitlint/cli<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>：</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> axiom-fe-commitlint-config @commitlint/cli --save-dev
+</code></pre></div><h2 id="使用"><a href="#使用" class="header-anchor">#</a> 使用</h2> <p>在 <code>commitlint.config.js</code> 中集成本包:</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token keyword">extends</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'axiom-fe-commitlint-config'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="设置-git-hook"><a href="#设置-git-hook" class="header-anchor">#</a> 设置 git hook</h2> <p>可通过 <a href="https://www.npmjs.com/package/husky" target="_blank" rel="noopener noreferrer">husky<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> 设置在 <code>git commit</code> 时触发 <code>commitlint</code>。</p> <p>首先安装并初始化 husky (适用于 Husky 9+)：</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> husky --save-dev
+npx husky init
+</code></pre></div><p>然后手动在<code>.husky/commit-msg</code>文件中写入以下拦截指令:</p> <div class="language-bash extra-class"><pre class="language-bash"><code>npx <span class="token parameter variable">--no</span> -- commitlint <span class="token parameter variable">--edit</span> <span class="token string">&quot;<span class="token variable">$1</span>&quot;</span>
+</code></pre></div><p>更多信息可参考 <a href="https://commitlint.js.org/#/guides-local-setup?id=install-husky" target="_blank" rel="noopener noreferrer">commitlint 文档<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>。</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/axiom-fe-spec/npm/stylelint.html" class="prev">
+        axiom-fe-stylelint-config
+      </a></span> <span class="next"><a href="/axiom-fe-spec/npm/markdownlint.html">
+        axiom-fe-markdownlint-config
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/axiom-fe-spec/assets/js/app.228e26ab.js" defer></script><script src="/axiom-fe-spec/assets/js/2.5de98bef.js" defer></script><script src="/axiom-fe-spec/assets/js/1.404baeb6.js" defer></script><script src="/axiom-fe-spec/assets/js/32.4b9dffaf.js" defer></script>
+  </body>
+</html>
