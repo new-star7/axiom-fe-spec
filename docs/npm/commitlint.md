@@ -5,14 +5,14 @@ categories:
 tags:
   - 工程规范
 author:
-  name: 澄怀
-  link: https://github.com/encode-studio-fe/fe-spec
+  name: new-star7
+  link: https://github.com/new-star7/axiom-fe-spec
 ---
 
-# encode-fe-commitlint-config
+# axiom-fe-commitlint-config
 
 :::tip
-印客学院 Git 规范
+Axiom 规范
 :::
 
 支持配套的 [commitlint 配置](https://commitlint.js.org/#/concepts-shareable-config)，用于对 `git commit message` 进行校验。
@@ -22,7 +22,7 @@ author:
 使用时，需要安装 [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli)：
 
 ```bash
-npm install encode-fe-commitlint-config @commitlint/cli --save-dev
+npm install axiom-fe-commitlint-config @commitlint/cli --save-dev
 ```
 
 ## 使用
@@ -31,7 +31,7 @@ npm install encode-fe-commitlint-config @commitlint/cli --save-dev
 
 ```javascript
 module.exports = {
-  extends: ['encode-fe-commitlint-config'],
+  extends: ['axiom-fe-commitlint-config'],
 };
 ```
 
@@ -39,16 +39,17 @@ module.exports = {
 
 可通过 [husky](https://www.npmjs.com/package/husky) 设置在 `git commit` 时触发 `commitlint`。
 
-首先安装 husky：
+首先安装并初始化 husky (适用于 Husky 9+)：
 
 ```bash
 npm install husky --save-dev
+npx husky init
 ```
 
-然后执行添加`commit-msg`:
+然后手动在`.husky/commit-msg`文件中写入以下拦截指令:
 
 ```bash
-npx husky add .husky/commit-msg 'npx commitlint --edit $1'
+npx --no -- commitlint --edit "$1"
 ```
 
 更多信息可参考 [commitlint 文档](https://commitlint.js.org/#/guides-local-setup?id=install-husky)。

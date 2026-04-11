@@ -1,12 +1,12 @@
----
+<!-- ---
 title: encode-fe-stylelint-config
 categories:
   - 工程规范
 tags:
   - 工程规范
 author:
-  name: 澄怀
-  link: https://github.com/encode-studio-fe/fe-spec
+  name: new-star7
+  link: https://github.com/new-star7/axiom-fe-spec
 ---
 
 # encode-fe-stylelint-config
@@ -33,4 +33,4 @@ npm install encode-fe-stylelint-config stylelint stylelint-scss --save-dev
 {
   "extends": "encode-fe-stylelint-config"
 }
-```
+``` -->

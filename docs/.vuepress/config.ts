@@ -100,7 +100,7 @@ export default defineConfig4CustomTheme({
       },
       {
         title: '脚手架',
-        children: [{ title: 'encode-fe-lint', path: '/cli/encode-fe-lint.md' }],
+        children: [{ title: 'axiom-fe-lint', path: '/cli/axiom-fe-lint.md' }],
       },
     ],
     logo: '/img/logo.png',
