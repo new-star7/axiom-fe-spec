@@ -1,5 +1,5 @@
 {
-  "name": "@new-star7/commitlint-config",
+  "name": "axiom-fe-commitlint-config",
   "version": "1.0.1",
   "description": "axiom前端编码规范 - Git规范",
   "main": "index.js",
