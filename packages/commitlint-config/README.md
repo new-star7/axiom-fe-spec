@@ -1,4 +1,4 @@
-# `@new-star7/commitlint-config`
+# axiom-fe-commitlint-config
 
 > axiom前端编码规范 Git 规范
 

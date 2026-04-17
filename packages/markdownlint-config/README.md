@@ -1,4 +1,4 @@
-# @new-star7/markdownlint-config
+# axiom-fe-markdownlint-config
 
 > axiom前端编码规范 文档规范
 

@@ -1,0 +1,40 @@
+{
+  "name": "axiom-fe-eslint-plugin",
+  "version": "1.0.0",
+  "description": "Axiom fe 自定义 ESLint 插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prepublishOnly": "npm run test"
+  },
+  "files": [
+    "configs/",
+    "rules",
+    "index.js",
+    "README.md"
+  ],
+  "keywords": [
+    "axiom",
+    "eslint",
+    "eslint-plugin"
+  ],
+  "author": "new-star7",
+  "homepage": "https://github.com/new-star7/axiom-fe-spec#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/new-star7/axiom-fe-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/new-star7/axiom-fe-spec/issues"
+  },
+  "packageManager": "pnpm@10.33.0",
+  "dependencies": {
+    "fs-extra": "^11.3.4",
+    "require-all": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "jest": "^29.7.0"
+  }
+}
